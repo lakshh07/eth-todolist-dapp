@@ -1,0 +1,11 @@
+input[type="checkbox"]:checked + .para {
+  text-decoration: line-through;
+  text-decoration-color: #a683e3;
+}
+.para {
+  padding: 20px;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+  margin: 5px;
+}
